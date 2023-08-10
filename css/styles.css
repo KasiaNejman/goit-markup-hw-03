@@ -15,7 +15,18 @@ height: 4.5rem;
 flex-shrink: 0;
 border-bottom: 1px var(---background4);
 background: var(--background);
+border: 1px dashed var(--background2);
+border-radius: 2px;
+height: 16px;
+padding: 4px 2px;
 } 
+.box-model{
+display: flex;
+justify-content: center;
+justify-items: center;
+align-content: center;
+align-items: center;
+}
 .web-layout{
 display: flex;
 width: 2.75rem;
@@ -29,8 +40,6 @@ width: 4.4375rem;
 height: 1.3125rem;
 flex-direction: column;
 justify-content: center;
-}
-.big-first-letter {
 }
 .pointer {
   cursor: pointer;
