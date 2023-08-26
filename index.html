@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -21,28 +20,26 @@
   <body>
     <header class="header-layout-and-style box-model">
       <nav>
-        <a class="logo web" href="index.html">WEB</a>
-        <a class="logo studio" href="index.html">STUDIO</a>
+        <a class="web" href="index.html"
+          >WEB<span class="studio" href="index.html">STUDIO</span></a
+        >
         <ul class="menu ul">
           <li>
-            <a class="navi big-first-letter pointer" href="index.html"
-              >Studio</a
-            >
+            <a class="menu-list pointer contacts" href="index.html">Studio</a>
           </li>
           <li>
-            <a class="navi big-first-letter pointer" href="portfolio.html"
+            <a class="menu-list pointer contacts" href="portfolio.html"
               >Portfolio</a
             >
           </li>
-          <li><a class="pointer">Contacts</a></li>
+          <li><a class="menu-list pointer contacts">Contacts</a></li>
         </ul>
       </nav>
       <address>
         <ul class="ul">
           <li>
             <a class="contacts" href="mailito:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+              >info@devstudio.com</a>
           </li>
           <li>
             <a class="contacts" href="tel:+11(000)111-11-11"
@@ -53,11 +50,10 @@
       </address>
     </header>
     <main>
-      <section class="section1 ul">
+      <section class="section-effective-solution">
         <h1>Effective Solutions for Your Business</h1>
-      </section>
-      <section class="menu-button">
-        <button class="button pointer" type="button">Order Service</button>
+        <span class="section-effective-solution">
+        <button class="button-in-main-section pointer" type="button">Order Service</button>
       </section>
       <section>
         <ul class="ul">
@@ -174,11 +170,9 @@
         </ul>
       </section>
     </main>
-    <footer class="footer">
-      <a class="logo" href="index.html">
-        <span class="web">WEB</span>
-        <span class="studio">STUDIO</span>
-      </a>
+    <footer class="footer-color">
+      <a class="web" href="index.html">WEB<span class="studio-1" href="index.html">STUDIO</span></a
+    >
       <p class="p-in-footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
